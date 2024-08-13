@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto RVLP</title>
+    <link rel="stylesheet" href="/Encriptador de texto/assets/style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">    
+</head>
+<body>
+    <header class="header">
+        <img class="img_logo" src="/Encriptador de texto/assets/Logo.png" alt="Logo de alura">
+    </header>
+    <main class="presentacion">
+        <section class="ingreso_de_txt">
+            <textarea class="text-area" cols="30" rows="10"  placeholder="Ingresa tu texto aquí....."></textarea><br>
+            <div class="informacion">
+                <img src="/Encriptador de texto/assets/exclamacion.png" alt="signo de exclamacion">
+                Solo letras minúsculas y sin acentos
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="encriptar();" >Encriptar</button>
+                <button class="btn-desencriptar" onclick="desencriptar();" >Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="mensaje" cols="20" rows="14">Ningún mensaje fue encontrado.Ingresa el texto que desees encriptar o desencriptar.</textarea>
+            <div>
+                <button class="btn-copiar" onclick="copiar();">Copiar</button>
+            </div>
+            
+        </section>
+    </main>
+    <footer>
+        <a href="https://www.linkedin.com/in/lprv/"><i class="fa fa-linkedin-square" style="font-size:48px;color:rgb(20, 61, 163)"></i></a>
+        <a href="https://github.com/LeslyRivera"> <i class="fa fa-github" style="font-size:48px;color:rgb(20, 61, 163)"></i></a>
+        <p>Desarrollado por Lesly Rivera</p>
+    </footer>
+</body>
+<script src="/Encriptador de texto/encriptador.js"></script>
+</html>
